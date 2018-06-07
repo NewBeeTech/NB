@@ -1,0 +1,30 @@
+.Header, .Nav {
+  width: 100vw;
+}
+/* 头部 */
+.Header-nav {
+  width: 90vw;
+  margin: 0 auto;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Header-nav-ul {
+  float: left;
+}
+.Header-nav-ul li {
+  text-align: center;
+  list-style: none;
+  padding: 0.2rem 1rem;
+  float: left;
+  height: 1rem;
+  font-size: 1rem;
+  color: #adb5c0;
+}
+.Header-nav-ul li a {
+  font-size: 16px;
+  color: #adb5c0;
+  text-decoration: none;
+}

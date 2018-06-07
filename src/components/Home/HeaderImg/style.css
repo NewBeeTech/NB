@@ -1,0 +1,55 @@
+/* 头图 */
+.Header-img {
+  width: 90vw;
+  margin: 0 5%;
+  height: 43vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 900px) {
+  .Header-img-logo {
+    flex-grow: 5;
+    width: 4vw;
+    height: 4vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Header-img-logo {
+    flex-grow: 5;
+    width: 6vw;
+    height: 6vw;
+  }
+}
+.Header-img-en {
+  flex-grow: 1;
+  height: 1.1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fff;
+  line-height: 1.1rem;
+}
+.Header-img-studio {
+  flex-grow: 4;
+  height: 1.4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.6rem;
+}
+.Header-img-studio span {
+  letter-spacing: 0.3rem;
+}
+.Header-img-slogan {
+  flex-grow: 3;
+  height: 28px;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.2rem;
+}
+.Header-img-slogan span {
+  letter-spacing: 1em;
+}
