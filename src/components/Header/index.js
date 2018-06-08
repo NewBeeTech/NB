@@ -1,6 +1,6 @@
 import './style.css';
 import React, { Component } from 'react';
-import logo from '../../../assets/images/logo.svg';
+import logo from '@/assets/images/logo.svg';
 import { Link } from "react-router-dom";
 
 class Header extends Component {
